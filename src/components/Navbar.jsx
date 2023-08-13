@@ -45,8 +45,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
+          <Link to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
       </ul>
@@ -89,8 +89,8 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+          <Link onClick={handleClick} to='education' smooth={true} duration={500}>
+            Education
           </Link>
         </li>
       </ul>
@@ -101,7 +101,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/saidi-abdelkader-15a62a212/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/grosvenor01'
             >
               Github <FaGithub size={30} />
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:abdo7dady@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href=''
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
